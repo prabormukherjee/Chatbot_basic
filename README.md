@@ -5,7 +5,8 @@ Here I implimented a chatbot from scratch uusingpython and rasa. Rasa is a chatb
   <li>Rasa NLU: A natural language understanding solution which takes the user input and tries to infer the intent and extract the available entities.</li>
   <li>Rasa Core: A dialog management solution tries to build a probability model which decides the set of actions to perform based on the previous set of user inputs.</li>
 </ul>
-Some basic parts of a chatbot  `rasa train`
+`rasa train`
+Some basic parts of a chatbot
 <ul>
   <li>Intent: Consider it as the aim or target of the user input. If a user say, “Which day is today?”, the intent would be finding the day of the week.</li>
   <li>Entity: Consider it as the useful information from the user input that can be extracted. From previous example, by intent we understand the aim is to find the day of week, but of which date? If we extract “Today” as the entity, we can perform the action on today.</li>
