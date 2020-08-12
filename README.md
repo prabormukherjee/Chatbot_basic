@@ -15,6 +15,6 @@ Some basic parts of a chatbot
 <br>
 To know more about rasa <a href ='https://itnext.io/building-a-chatbot-with-rasa-9c3f3c6ad64d'> Check </a> the article. Or find rasa <a href ='https://rasa.com/docs/getting-started/'> Documentation </a> here.
 <br>
-If you want to run rasa for first time, set the directory and then run `rasa init` this command in terminal. Then to try it on terminal use `rasa shell`. If you changed anything from the code, dont forget to train the model again using `rasa train`. Finally if you want to check the confidence of some intents, run `rasa shell nlu`, a nd that will show all the confidence and details part of your bot.
+If you want to run rasa for first time, set the directory and then run `rasa init` this command in terminal. Then to try it on terminal use `rasa shell`. If you changed anything from the code, dont forget to train the model again using `rasa train`. Finally if you want to check the confidence of some intents, run `rasa shell nlu` , a nd that will show all the confidence and details part of your bot.
 <br>
 Here I made a simple bot that can provide information about some specific timezone. I have not connect it with any database or apis to get the timezone. I just hardcoded some value using city names, so other city that is not present will display an unsuccessful result.
