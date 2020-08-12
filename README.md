@@ -2,7 +2,7 @@
 
 Here I implimented a chatbot from scratch uusingpython and rasa. Rasa is a chatbot solution. Rasa provides a set of tools to build a complete chatbot at your local desktop and completely free. Their flagship tools are,
 *   Rasa NLU: A natural language understanding solution which takes the user input and tries to infer the intent and extract the available entities.
-*   Rasa Core: A dialog management solution tries to build a probability model which decides the set of actions to perform based on the previous set of user inputs.
+*   Rasa Core: A dialog management solution tries to build a probability model which decides the set of actions to perform based on the previous set of user inputs.    
 Some basic parts of a chatbot
 *   Intent: Consider it as the aim or target of the user input. If a user say, “Which day is today?”, the intent would be finding the day of the week.
 *   Entity: Consider it as the useful information from the user input that can be extracted. From previous example, by intent we understand the aim is to find the day of week, but of which date? If we extract “Today” as the entity, we can perform the action on today.
