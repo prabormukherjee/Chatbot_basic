@@ -1,4 +1,5 @@
 # Basic_chatbot
+ `rasa train`
 
 Here I implimented a chatbot from scratch uusingpython and rasa. Rasa is a chatbot solution. Rasa provides a set of tools to build a complete chatbot at your local desktop and completely free. Their flagship tools are,
 <ul>
@@ -18,3 +19,4 @@ To know more about rasa <a href ='https://itnext.io/building-a-chatbot-with-rasa
 If you want to run rasa for first time, set the directory and then run `rasa init` this command in terminal. Then to try it on terminal use `rasa shell`. If you changed anything from the code, dont forget to train the model again using `rasa train`. Finally if you want to check the confidence of some intents, run `rasa shell nlu` , a nd that will show all the confidence and details part of your bot.
 <br>
 Here I made a simple bot that can provide information about some specific timezone. I have not connect it with any database or apis to get the timezone. I just hardcoded some value using city names, so other city that is not present will display an unsuccessful result.
+ `rasa train`
